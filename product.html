@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="product.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+	
+		
+	<header>
+	
+		<a href="index.html" class="logo">Frutis</a>
+		<div class="toggleMenu" onclick="toggleMenu()";></div>
+		
+        <ul class="navigation">
+        	<li><a href="index.html" class="actives">Home</a></li>
+        	<li>
+        		<a href="#menu">Menu<span><i class="fa fa-chevron-down"></i></span></a>
+        		<ul class="drop-news2">
+        			<li><a href="">All fruties</a></li>
+        			<li><a href="">Basket for you</a></li>
+        		</ul>
+        	</li>
+        	<li>
+        		<a href="#">What`s New<span><i class="fa fa-chevron-down"></i></span></a>
+        		<ul class="drop-news">
+        			<li><a href="">New sale</a></li>
+        			<li><a href="">Our friend</a></li>
+        		</ul>
+        	</li>
+            <li><a href="#contact">Contact</a></li>
+              <li><a href="#" class="user"><i class="fa fa-user"></i></a></li>
+        </ul>
+		</div>
+     </header>
+     <div class="form">
+
+        <div class="login-form">
+
+            <a href="#" class="form-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+
+            <form>
+                <input type="email" name="" placeholder="Example@gmail.com">
+                <input type="password" name="" placeholder="Password" name="password">
+                <input type="submit" value="Log In" name="">
+            </form>
+
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="#" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+
+        <div class="sing-up-form">
+
+            <a href="#" class="form-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+            <strong>Sing Up</strong>
+
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="" placeholder="Example@gmail.com">
+                <input type="password" name="" placeholder="Password" name="password">
+                <input type="submit" value="Sing In" name="">
+            </form>
+
+            <div class="form-btns">
+                <a href="#" class="alredy-acount">Already Have Account?</a>
+                
+            </div>
+        </div>
+    </div>
+
+      <div class="titel-abouts" id="menu">
+        	<h1>Menu</h1>
+        </div>
+<div class="form-second">
+            <div class="form-card">
+            <a href="#" class="form-cancel-second" onclick="toggleCard()">
+                <i class="fa fa-times"></i>
+            </a>
+
+
+                <div class="card-product">
+                <div class="imgCard">
+                    <img src="img/apple.png">
+            </div>
+            <div class="card-thumb">
+                <ul>
+                    <li><img src="img/dragonFruits.png"></li>
+                    <li><img src="img/mango.png"></li>
+                    <li><img src="img/pineApple.png"></li>
+                </ul>
+            </div>
+        </div>
+        
+         <div class="card-content">
+             <div class="card-content-text">
+                <h3>Dragon Fruts</h3>
+             </div>
+             <div class="card-content-opinion">
+                <ul>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+
+                </ul>
+                <div class="card-contnet-coment">
+                    <a href="#"><i class="fa fa-commenting-o"></i>Read reviews(1)</a>
+                </div>
+             </div>
+             <div class="card-content-price">
+                <p>5.99$</p>
+             </div>
+             <div class="card-content-about">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco.</p>
+             </div>
+             <div class="card-content-color">
+                <p>Color</p>
+                <div class="color-block">
+                    <li><a href="#">w</a></li>
+                    <li><a href="#" class="btnt">b</a></li>
+                </div>
+             </div>
+             <div class="card-content-buttons">
+                <a href="#"><i class="fa fa-minus"></i>1<i class="fa fa-plus"></i></a>
+                <a href="#">+Add to Cart</a>
+             </div>
+
+               <div class="card-content-spci">
+                <a href="#"><i class="fa fa-heart-o"></i>Add to wishlist</a>
+                <a href="#"><i class="fa fa-random"></i>Add to compare</a>
+               </div>
+
+               <div class="card-content-links">
+                <p>Share</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+               </div>
+         </div>
+        </div>
+      </div>    
+    
+</div>
+        <div class="card-select">
+        	<ul>
+        		<li class="list active" data-filter="all">All</li>
+        		<li class="list" data-filter="appel">Appel</li>
+        		<li class="list" data-filter="dragon">Dragon</li>
+        		<li class="list" data-filter="mango">Mango</li>
+        		<li class="list" data-filter="pineAppel">pineAppel</li>
+        		<li class="list" data-filter="watermelon">Watermelon</li>
+        	</ul>
+        </div>
+        <div class="menu" class="card-active" onclick="toggleCard()">
+           <div class="card appel
+           ">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appell</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+
+           	</div>
+           </div>
+           
+        
+          <div class="card">
+           	<div class="cardImg">
+           		<img src="img/dragonFruits.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Dragon</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+           
+        
+          <div class="card mango">
+           	<div class="cardImg">
+           		<img src="img/mango.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Mango</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+           
+        
+          <div class="card">
+           	<div class="cardImg">
+           		<img src="img/pineApple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>pineAppel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+           
+        
+          <div class="card watermelon">
+           	<div class="cardImg">
+           		<img src="img/watermelon.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Watermelon</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+           
+      
+          <div class="card appel">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+        </div>
+
+            <div class="card appel">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+        </div>
+                <div class="card appel">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+        </div>
+                   <div class="card appel">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+        </div>
+                     <div class="card appel">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+        </div>
+                   <div class="card appel">
+           	<div class="cardImg">
+           		<img src="img/apple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Appel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+        </div>
+
+
+          <div class="card watermelon">
+           	<div class="cardImg">
+           		<img src="img/watermelon.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Watermelon</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+                 
+
+          <div class="card">
+           	<div class="cardImg">
+           		<img src="img/watermelon.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Watermelon</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+                  
+
+          <div class="card watermelon">
+           	<div class="cardImg">
+           		<img src="img/watermelon.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Watermelon</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div> 
+
+
+
+          <div class="card watermelon">
+           	<div class="cardImg">
+           		<img src="img/watermelon.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Watermelon</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div> 
+
+
+
+          <div class="card watermelon">
+           	<div class="cardImg">
+           		<img src="img/watermelon.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Watermelon</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+
+           	    <div class="card pineAppel">
+           	<div class="cardImg">
+           		<img src="img/pineApple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>pineAppel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div> 
+
+           	           <div class="card pineAppel">
+           	<div class="cardImg">
+           		<img src="img/pineApple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>pineAppel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+
+           	      <div class="card pineAppel">
+           	<div class="cardImg">
+           		<img src="img/pineApple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>pineAppel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+
+           	 <div class="card pineAppel">
+           	<div class="cardImg">
+           		<img src="img/pineApple.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>pineAppel</h3>
+           		<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           				<a href="#" class="busket"></a>
+           			</div>
+           				
+           	</div>
+           	</div>
+
+           	    <div class="card dragon">
+           	<div class="cardImg">
+           		<img src="img/dragonFruits.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Dragon</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+
+           	    <div class="card dragon">
+           	<div class="cardImg">
+           		<img src="img/dragonFruits.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Dragon</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+
+           	    <div class="card dragon">
+           	<div class="cardImg">
+           		<img src="img/dragonFruits.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Dragon</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+           	    <div class="card dragon">
+           	<div class="cardImg">
+           		<img src="img/dragonFruits.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Dragon</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+           	          <div class="card mango">
+           	<div class="cardImg">
+           		<img src="img/mango.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Mango</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+           	          <div class="card mango">
+           	<div class="cardImg">
+           		<img src="img/mango.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Mango</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+           	          <div class="card mango">
+           	<div class="cardImg">
+           		<img src="img/mango.png">
+           	</div>
+           		<div class="card-content">
+           			<h3>Mango</h3>
+           			<div class="card-btn">
+           				<div class="price">
+           					<p>10.99$</p>
+           					<p>5.99$</p>
+           				</div>
+           			<a href="#" class="busket"></a>
+           			</div>
+           			
+           	</div>
+           	</div>
+
+
+
+
+
+
+
+           
+    </div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function(){
+  		$('.list').click(function(){
+  			const value = $(this).attr('data-filter');
+  			if (value == 'all'){
+  				$('.card').show('1000');
+  			}
+  			else{
+  				$('.card').not('.'+value).hide('1000');
+  				$('.card').filter('.'+value).show('100');
+  			}
+  			})
+  		})
+  
+</script>
+  <script>
+        function toggleCard(){
+       let formSecond = document.querySelector('.form-second');
+       let toggleCard = document.querySelector('.toggleCard');
+
+       formSecond.classList.toggle('card-active');
+       toggleCard.classList.toggle('card-active');
+        }
+        $(document).on('click','.form-cancel-second',function(){
+            $('.form-second').removeClass('card-active')
+        });
+      
+    </script>
+        <script src="JQuery.js"></script>
+    <script type="text/javascript">
+        $(document).on('click','.user,.alredy-acount',function(){
+            $('.form').addClass('login-active').removeClass('sign-up-active')
+        });
+
+        $(document).on('click','.sign-up-btn',function(){
+            $('.form').addClass('sign-up-active').removeClass('login-active')
+        });
+
+        $(document).on('click','.form-cancel',function(){
+            $('.form').removeClass('login-active').removeClass('sign-up-active')
+        });
+      
+
+    </script>
+</body>
+</html>
